@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+     
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+   
+
+}
+
+.navbar{
+    width: 100%;
+    height: 6vh;
+    background-color: #FFF8DC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 10px;
+
+}
+
+.image-part{
+    width: 20%;
+    padding-left: 20px;
+
+}
+
+.text-part{
+    width: 50%;
+    display: flex;
+}
+.text-part ul{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.text-part ul a em{
+    color:#697BD1;
+}
+.text-part a{
+    text-decoration: none;
+    color: #444444;
+    font-weight: 500;
+}
+
+.text-part li{
+    list-style: none;
+}
+
+.text-part i{
+    font-size: 1.5rem;
+}
+
+
+.hero-section{
+    width: 100%;
+    height: 118vh;
+    display: flex;
+
+
+  
+}
+
+
+
+
+.left{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.left-top{
+    width: 100%;
+    height: 60vh;
+    background-color: #697BD1;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.left-top h3 {
+    color: rgba(0, 0, 0, 0.546);
+}
+.left-top h4{
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+    padding-right: 25rem;
+}
+.left-top h1{
+    font-size: 8rem;
+}
+.left-top span{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-block: 20px;
+
+}
+.left-top p{
+    padding-bottom: 7rem;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.left-bottom{
+    width: 100%;
+    height: 400px;
+    background-color: #FFF8DC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.lastpart{
+    background-color: #FFF8DC;
+}
+.left-bottom span{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-block: 20px;
+}
+.left-bottom span h1{
+    color: #444444;
+}
+.left-bottom span p{
+    font-weight: 600;
+    color: #444444;
+
+}
+.left-bottom span em{
+    color: blue;
+    font-weight: 600;
+}
+
+
+.btn{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline: 10px;
+    padding-block: 3rem;
+   
+}
+
+
+.btn span{
+    width: 30%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+
+}
+
+.btn span h3{
+    border: 1px solid black;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button{
+    width: 30%;
+    height: 80px;
+    background-color: #697BD1;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.btn button i{
+    background-color: white;
+    border-radius: 40%;
+    font-size: 1.5rem;
+    
+}
+
+.btn h3:first-child{
+    background-color: #E6CAA3;
+}
+.btn h3:nth-child(2){
+    background-color: white;
+}
+.btn h3:last-child{
+    background-color: #E6CAA3;
+}
+
+
+.icon{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+    padding-left: 5rem;
+    /* background-color: blue; */
+}
+.icon i{
+    font-size: 1.5rem;
+   
+}
+
+
+.right{
+    width: 50%;
+    height: auto;
+
+}
+.right img{
+    width: 100%;
+    height: 690px;
+}
+
+
+/* Responsive */
+
+
+
+
+@media (max-width : 768px) {
+    .main-container{
+        width: 100%;
+        height: auto;
+    }
+    .left-top {
+        height: auto;
+        width: auto;
+    }
+    .left-top h1 {
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    .left-top p {
+        font-size: 13px;
+    }
+    .left-top span {
+        display: none;
+    }
+    .left-top h4 {
+        display: none;
+    }
+   
+    .left-bottom span {
+        height: 20px;
+    }
+    .btn span h3 {
+        height: 40px;
+    }
+    .left-bottom button {
+        height: 40px;
+        width: 100px;
+        font-size: 10px;
+    }
+    .left-bottom button i {
+        font-size: 14px;
+    }
+    .right img {
+        height: 585px;
+    }
+}
